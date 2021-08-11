@@ -174,7 +174,7 @@ pre{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 480px){
 nav{
     display: block;
     text-align: center;
@@ -200,16 +200,20 @@ nav{
     height: 0vh;
    
 }
+span{
+    color: red;
+}
 
-
-
+.address{
+font-size: 00.5em;
+}
 
 
 
 
 .grid-2{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
    padding-left: 10px;
 }
 
@@ -233,7 +237,7 @@ padding-top: 30px;
 
 .grid-inside{
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
     justify-content: center;
     padding-left: 30px;
     row-gap: 14px;
@@ -251,7 +255,7 @@ padding-top: 30px;
     font-size: 10px;
 }
 pre{
-    font-size: 15px;
+    font-size: 0.5em;
 }
 #reviews{
     margin-right: 0%;
