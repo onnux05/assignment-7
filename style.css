@@ -48,7 +48,8 @@ nav > div::first-letter{
   line-height: 40px;
     padding-top: 12vh;
     color: white;
-    padding-left: 29vh;
+    
+    
 }
 .grid-1 > div:nth-child(1){
     padding-left: 9vh;
@@ -184,14 +185,14 @@ nav{
 .grid-1{
     display: grid;
     grid-template-columns: auto;
- 
+   
     padding-left: 10vh;
     padding-top: 7vh;
-    
+    padding: 0%;
 
 }
 .grid-1 > div:nth-child(1){
-font-size: 2em;
+
     padding-bottom: 5vh;
 }
 .vl{
