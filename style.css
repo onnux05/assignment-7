@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav {
+    display: grid;
+    grid-template-columns: 280px auto auto auto auto auto;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+nav > div{
+    padding-top: 5px;
+    padding: 28px;
+}
+nav  a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+
+nav > div:nth-child(1){
+    padding: 2vh;
+    font-size: 30px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+nav > div::first-letter{
+    color: red;
+
+
+}
+.banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.banner img{
+    height: 305px;
+    padding: 10px;
+}
+.grid-1{
+       background-color: black;
+    display: grid;
+    grid-template-columns: 33.3333% auto auto;
+  line-height: 40px;
+    padding-top: 12vh;
+    color: white;
+    padding-left: 29vh;
+}
+.grid-1 > div:nth-child(1){
+    padding-left: 9vh;
+    padding-right: 9vh;
+    font-size: 11vh;
+    font-family: 'Nanum Pen Script', cursive;
+}
+.vl {
+    padding-left: 4vh;
+    border-left: 3px solid darkgray;
+    height: 11vh;
+
+}
+
+.grid-2{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto;
+    grid-row-gap: 50px;
+    column-gap: 20px;
+    background-color: black;
+    color: white;
+      padding-top: 125px;
+
+}
+.grid-2 h3{
+    font-size: 30px;
+    font-family: 'Slabo 13px', serif;
+    text-align: center;
+}
+.grid-2 h3::first-letter{
+    color: red;
+}
+.grid-2  h3 > p{
+    padding: 10px;
+    text-align:left;
+}
+
+.grid-3{
+    display: grid;
+    background-color: black;
+    padding: 40px;
+    color: azure;
+  
+    grid-gap: 2px;
+    grid-template-columns: 25% 25% 44%;
+    
+}
+.grid-3 p::before{
+    content: "\00BB    ";
+}
+#about-pic > img{
+    padding-top: 30px;
+width: 250px;
+
+
+}
+.grid-inside{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 5vh;
+    grid-row-gap: 5vh;
+    
+}
+.grid-inside img{
+    width: 115px;
+}
+footer > h2{
+ text-align: center;
+ font-family: 'Courier New', Courier, monospace;
+font-size: 2vh;
+padding: 20px;
+    
+}
+
+iframe{
+    background-color: black;
+    text-align: center;
+}
+
+.address{
+    font-family: 'Slabo 13px', serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+    background-color: black;
+    color:white;
+  
+}
+.address  h5{
+    font-size: 20px;
+}
+footer > h2::before{
+    content: "\00A9  ";
+}
+
+
+.button{
+    font-family: 'Slabo 13px', serif;
+    text-decoration: none;
+background-color: red;
+color: white;
+
+padding: 15px;
+
+
+}
+
+pre{
+    font-family: 'Slabo 13px', serif;
+   font-size: 20px;
+    text-align: center;
+}
+
+.address h2{
+    font-family: 'Slabo 13px', serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+nav{
+    display: block;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: auto;
+ 
+    padding-left: 10vh;
+    padding-top: 7vh;
+    
+
+}
+.grid-1 > div:nth-child(1){
+
+    padding-bottom: 5vh;
+}
+.vl{
+    padding-left: 0%;
+    border-left: 0px solid darkgray;
+    height: 0vh;
+   
+}
+
+
+
+
+
+
+
+.grid-2{
+    display: grid;
+    grid-template-columns: auto auto;
+   padding-left: 10px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: justify;
+   
+
+ 
+}
+#about-pic > img{
+    width: 100%;
+  text-align: center;
+padding-top: 30px;
+   
+    
+    
+    
+    }
+
+.grid-inside{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding-left: 30px;
+    row-gap: 14px;
+    
+    
+}
+
+.grid-3 h4{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button{
+    font-size: 10px;
+}
+pre{
+    font-size: 15px;
+}
+#reviews{
+    margin-right: 0%;
+}
+
+#banner-media{
+    margin-left: 8vh;
+}
+}
