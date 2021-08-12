@@ -8,6 +8,7 @@ nav {
     justify-content: space-around;
     background-color: black;
     color: white;
+    border: 1px solid white;
    
 }
 nav > div{
@@ -186,7 +187,7 @@ pre{
 nav{
     display: block;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
 }
 
 .grid-1{
@@ -250,8 +251,8 @@ padding-top: 30px;
     }
    
     
-    
-}
+
+
 
 .grid-3 h4{
     padding-top: 30px;
@@ -263,7 +264,7 @@ padding-top: 30px;
     font-size: 10px;
 }
 pre{
-    font-size: 0.5em;
+    font-size: 0.9em;
 }
 #reviews{
     margin-right: 0%;
