@@ -175,7 +175,14 @@ pre{
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 520px){
+    
+    
+    
+    
+    
+    
+    
 nav{
     display: block;
     text-align: center;
@@ -240,8 +247,8 @@ padding-top: 30px;
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
-    padding-left: 30px;
-    row-gap: 14px;
+    }
+   
     
     
 }
@@ -263,6 +270,6 @@ pre{
 }
 
 #banner-media{
-    margin-left: 7vh;
+    margin-left: 5vh;
 }
 }
