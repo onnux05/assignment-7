@@ -8,7 +8,7 @@ nav {
     justify-content: space-around;
     background-color: black;
     color: white;
-  
+   
 }
 nav > div{
     padding-top: 5px;
@@ -53,7 +53,7 @@ nav > div::first-letter{
 }
 .grid-1 > div:nth-child(1){
     padding-left: 9vh;
-    padding-right: 9vh;
+    
     font-size: 11vh;
     font-family: 'Nanum Pen Script', cursive;
 }
